@@ -29,9 +29,30 @@ class ExampleView extends StatelessWidget {
       body: SafeArea(
         child: Center(
           child: Column(
-            children: const [
-              BlikkText.body('Body'),
-              BlikkText.caption('caption')
+            children: [
+              BlikkText.body(
+                'Body',
+                color: Colors.white,
+              ),
+              verticalSpaceSmall,
+              const BlikkText.caption('caption'),
+              verticalSpaceSmall,
+              const BlikkText.headline('headline'),
+              verticalSpaceSmall,
+              const BlikkText.heading1('Heading1'),
+              verticalSpaceSmall,
+              const BlikkText.heading2('Heading2'),
+              verticalSpaceSmall,
+              const BlikkText.heading3('Heading3'),
+              verticalSpaceSmall,
+              const BlikkText.subtitle1('Subtitle1'),
+              verticalSpaceSmall,
+              const BlikkText.subtitle2('Subtitle2'),
+              verticalSpaceSmall,
+              const BlikkButton(
+                disabled: true,
+                title: 'Testar',
+              )
             ],
           ),
         ),

@@ -1,9 +1,11 @@
+import 'package:blikk_ui/src/shared/app_colors.dart';
 import 'package:blikk_ui/src/shared/styles.dart';
 import 'package:flutter/material.dart';
 
 class BlikkText extends StatelessWidget {
-  const BlikkText.body(this.text, {TextAlign align = TextAlign.start, Key? key})
-      : textStyle = bodyStyle,
+  BlikkText.body(this.text,
+      {Color color = Colors.black, TextAlign align = TextAlign.start, Key? key})
+      : textStyle = bodyStyle.copyWith(color: color),
         textAlign = align,
         super(key: key);
   const BlikkText.subtitle1(this.text,

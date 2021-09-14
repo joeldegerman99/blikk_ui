@@ -7,11 +7,10 @@ const kcBlikkPrimary = Color(0xFF36a3df);
 const kcBlikkPink = Color(0xFFE72C70);
 const kcVismaPrimary = Color(0xFF0068A4);
 const kcVeryLightGrey = Color(0xFFf1f1f1);
-const kcLightGray = Color(0xFFe7e7e8);
-Color kcBorderGray = Colors.grey.shade400;
+const kcLightGrey = Color(0xFFe7e7e8);
+const kcGrey = Color(0xFFBDBDBD);
 
-Color kcDarkerGrey = Colors.grey[600]!;
-Color kcTextGrey = Colors.grey[800]!;
+const kcTextGrey = Color(0xFF424242);
 const kcBlikkPrimaryButton = Color(0xFF4ab895);
 const kcVismaPrimaryButton = Color(0xFF63A701);
 const kcRed = Color(0xFFe72770);
